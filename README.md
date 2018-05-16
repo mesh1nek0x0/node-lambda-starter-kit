@@ -69,4 +69,7 @@ Nothing
 [mesh1nek0x0](https://github.com/mesh1neko)
 
 ## :clipboard: LICENCE
-MIT
+`node-lambda-starter-kit` is licensed under the [MIT](https://github.com/mesh1neko/node-lambda-starter-kit/blob/master/LICENSE) license.
+
+`node-lambda-starter-kit` uses 3rd party libraries, each with their own license. These are found here.
+
