@@ -47,6 +47,19 @@ $ yarn test
 $ yarn eslint
 ```
 
+*deploy labmbda*
+
+At first, overwrite .env. Your lambda role arn & region & function name(OS X example bellow)
+```
+$ sed -i '' 's/\(AWS_ROLE_ARN=\).*/\1<your_lambda_arn>/' .env
+$ sed -i '' 's/\(AWS_REGION=\).*/\1<your_region>/' .env
+$ sed -i '' 's/\(AWS_FUNCTION_NAME=\).*/\1<your_lambda_name>/' .env
+```
+
+Then, you can deploy like bellow.
+```
+$ yarn deploy
+```
 ## :information_source: Anything else
 <!-- show how to test, how to contribute -->
 
