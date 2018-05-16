@@ -28,9 +28,9 @@ $ git clone ...
 $ yarn install
 ```
 
+You can also fork this repository.
+
 ## :arrow_forward: Usage
-UsageUsageUsage
-<!-- show basic usage -->
 
 *invoke local*
 ```
@@ -60,8 +60,10 @@ Then, you can deploy like bellow.
 ```
 $ yarn deploy
 ```
+
 ## :information_source: Anything else
 <!-- show how to test, how to contribute -->
+Nothing
 
 ## :pencil: Author
 [mesh1nek0x0](https://github.com/mesh1neko)
