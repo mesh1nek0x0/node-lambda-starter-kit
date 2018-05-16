@@ -10,9 +10,10 @@ Suitable for minimal AWS Lambda.
 
 ## :white_check_mark: Features
 <!-- list up your product features. -->
-- :art: support .editorconfig
-- :shirt: support .eslintrc
-- :coffee: support test with mocha
+- WIP :sparkles: powered by node-lambda
+- WIP :art: support .editorconfig
+- WIP :shirt: support .eslintrc
+- WIP :coffee: support test with mocha
 
 ---
 
