@@ -1,6 +1,6 @@
 # node-lambda-starter-kit
 
-Enabel to focus on cording with [node-lambda](https://github.com/motdotla/node-lambda).
+Enable to focus on cording with [node-lambda](https://github.com/motdotla/node-lambda).
 
 ![](	https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)
 <!-- add ci status badge -->
