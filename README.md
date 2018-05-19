@@ -11,7 +11,7 @@ Suitable for minimal AWS Lambda.
 ## :white_check_mark: Features
 <!-- list up your product features. -->
 - WIP :sparkles: powered by node-lambda
-- WIP :art: support .editorconfig
+- :art: support .editorconfig
 - WIP :shirt: support .eslintrc
 - WIP :coffee: support test with mocha
 
@@ -73,4 +73,3 @@ Nothing
 `node-lambda-starter-kit` is licensed under the [MIT](https://github.com/mesh1neko/node-lambda-starter-kit/blob/master/LICENSE) license.
 
 `node-lambda-starter-kit` uses 3rd party libraries, each with their own license. These are found here.
-
