@@ -6,10 +6,14 @@
   "repository": "git@github.com:mesh1neko/node-lambda-starter-kit.git",
   "author": "iida-ryota <mesh1nek0x0@gmail.com>",
   "license": "MIT",
-  "scripts":{
-    "start": "node-lambda invoke"
+  "scripts": {
+    "start": "node-lambda invoke",
+    "test": "mocha --recursive test/"
   },
   "devDependencies": {
-    "node-lambda": "^0.11.7"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "node-lambda": "^0.11.7",
+    "sinon": "^5.0.7"
   }
 }

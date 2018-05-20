@@ -13,7 +13,7 @@ Suitable for minimal AWS Lambda.
 - WIP :sparkles: powered by node-lambda
 - :art: support .editorconfig
 - WIP :shirt: support .eslintrc
-- WIP :coffee: support test with mocha
+- :coffee: support test with mocha/chai/sinon
 
 ---
 
