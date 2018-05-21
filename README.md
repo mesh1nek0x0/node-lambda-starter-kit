@@ -2,7 +2,7 @@
 
 Enable to focus on cording with [node-lambda](https://github.com/motdotla/node-lambda).
 
-![](	https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)
+[![CircleCI](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit.svg?style=svg)](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit)
 <!-- add ci status badge -->
 
 ## :pushpin: Description
