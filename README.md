@@ -2,7 +2,7 @@
 
 Enable to focus on cording with [node-lambda](https://github.com/motdotla/node-lambda).
 
-[![CircleCI](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit.svg?style=svg)](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit)
+[![CircleCI](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit.svg?style=shield)](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit)
 <!-- add ci status badge -->
 
 ## :pushpin: Description
@@ -13,7 +13,7 @@ Suitable for minimal AWS Lambda.
 - WIP :sparkles: powered by node-lambda
 - :art: support .editorconfig
 - WIP :shirt: support .eslintrc
-- :coffee: support test with mocha/chai/sinon
+- :black_joker: support test&coverage with [jest](https://facebook.github.io/jest/)
 
 ---
 
