@@ -8,9 +8,11 @@
   "license": "MIT",
   "scripts": {
     "start": "node-lambda invoke",
-    "test": "jest --config=jest.config.json"
+    "test": "jest --config=jest.config.json",
+    "lint": "eslint index.js test/*"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
     "jest": "^22.4.4",
     "node-lambda": "^0.11.7",
     "sinon": "^5.0.7"
