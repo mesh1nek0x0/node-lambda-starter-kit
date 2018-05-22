@@ -48,7 +48,7 @@ $ yarn test
 $ yarn lint
 ```
 
-*deploy labmbda*
+*deploy lambda*
 
 At first, overwrite .env. Your lambda role arn & region & function name(OS X example bellow)
 ```
