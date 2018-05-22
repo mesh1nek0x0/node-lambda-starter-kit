@@ -12,7 +12,7 @@ Suitable for minimal AWS Lambda.
 <!-- list up your product features. -->
 - WIP :sparkles: powered by node-lambda
 - :art: support .editorconfig
-- WIP :shirt: support .eslintrc
+- :shirt: support lint with [eslint](https://eslint.org/)
 - :black_joker: support test&coverage with [jest](https://facebook.github.io/jest/)
 
 ---
@@ -45,7 +45,7 @@ $ yarn test
 
 *run eslint*
 ```
-$ yarn eslint
+$ yarn lint
 ```
 
 *deploy labmbda*
