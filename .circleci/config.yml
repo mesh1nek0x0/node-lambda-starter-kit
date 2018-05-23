@@ -35,8 +35,8 @@ jobs:
 
       # run tests!
       - run:
-        name: start eslint
-        command: yarn lint
+          name: start eslint
+          command: yarn lint
       - run:
-        name: start test
-        command: yarn test
+          name: start test
+          command: yarn test
