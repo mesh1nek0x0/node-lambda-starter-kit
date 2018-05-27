@@ -40,3 +40,5 @@ jobs:
       - run:
           name: start test
           command: yarn test
+      - store_test_results:
+          path: test-results
