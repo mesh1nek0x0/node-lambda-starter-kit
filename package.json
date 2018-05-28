@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Enable to focus on cording with node-lambda",
   "main": "index.js",
-  "repository": "git@github.com:mesh1neko/node-lambda-starter-kit.git",
+  "repository": "git@github.com:mesh1nek0x0/node-lambda-starter-kit.git",
   "author": "iida-ryota <mesh1nek0x0@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "jest": "^22.4.4",
+    "jest-junit": "^4.0.0",
     "node-lambda": "^0.11.7",
     "prettier": "^1.12.1",
     "sinon": "^5.0.7"
