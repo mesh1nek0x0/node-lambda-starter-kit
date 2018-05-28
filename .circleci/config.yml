@@ -36,12 +36,13 @@ jobs:
       # run tests!
       - run:
           name: start eslint
-          command: yarn lint
+          command: yarn lint --format junit -o reports/junit/js-lint-results.xml
       - run:
           name: start test
-          command: yarn test
-      - run:
-          name: store test results
-          command: mkdir test-results
+          command: yarn test --ci --testResultsProcessor="jest-junit"
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
       - store_test_results:
-          path: test-results
+          path: reports/junit
+      - store_artifacts:
+          path: reports/junit
