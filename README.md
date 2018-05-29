@@ -2,7 +2,7 @@
 
 Enable to focus on cording with [node-lambda](https://github.com/motdotla/node-lambda).
 
-[![CircleCI](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit.svg?style=shield)](https://circleci.com/gh/mesh1neko/node-lambda-starter-kit)
+[![CircleCI](https://circleci.com/gh/mesh1nek0x0/node-lambda-starter-kit.svg?style=shield)](https://circleci.com/gh/mesh1nek0x0/node-lambda-starter-kit)
 <!-- add ci status badge -->
 
 ## :pushpin: Description
@@ -14,6 +14,7 @@ Suitable for minimal AWS Lambda.
 - :art: support .editorconfig
 - :shirt: support lint with [eslint](https://eslint.org/)
 - :black_joker: support test&coverage with [jest](https://facebook.github.io/jest/)
+- :arrows_counterclockwise: support [CircleCI](https://circleci.com/)
 
 ---
 
@@ -50,6 +51,8 @@ $ yarn lint
 
 *deploy lambda*
 
+※Setting up AWS-CLI configuration yet? see [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html)
+
 At first, overwrite .env. Your lambda role arn & region & function name(OS X example bellow)
 ```
 $ sed -i '' 's/\(AWS_ROLE_ARN=\).*/\1<your_lambda_arn>/' .env
@@ -67,7 +70,7 @@ $ yarn deploy
 Nothing
 
 ## :pencil: Author
-[mesh1nek0x0](https://github.com/mesh1neko)
+[mesh1nek0x0](https://github.com/mesh1nek0x0)
 
 ## :clipboard: LICENCE
 `node-lambda-starter-kit` is licensed under the [MIT](https://github.com/mesh1neko/node-lambda-starter-kit/blob/master/LICENSE) license.
