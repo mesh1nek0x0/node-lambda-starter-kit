@@ -4,6 +4,10 @@ const sinon = require('sinon');
 const index = require('../../index.js');
 
 describe('index_spec test', () => {
+    afterEach(() => {
+        sinon.restore();
+    });
+
     const TARGET_INDEX = 0;
     const CALLBACK_ARG_ERROR = 0;
     const CALLBACK_ARG_RESULT = 1;
